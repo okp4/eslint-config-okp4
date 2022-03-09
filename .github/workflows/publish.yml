@@ -33,7 +33,7 @@ jobs:
         run: |
           DATE=$(date +%Y%m%d%H%M%S)
 
-          yarn && yarn build
+          yarn
 
           publish=(yarn publish --no-git-tag-version --non-interactive)
 
