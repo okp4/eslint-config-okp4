@@ -5,6 +5,9 @@ on:
     branches: [main]
     tags: ["v*"]
 
+  pull_request:
+    branches: [main]
+
 jobs:
   publish-npm-package-okp4:
     runs-on: ubuntu-20.04
