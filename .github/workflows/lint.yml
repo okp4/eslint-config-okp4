@@ -2,15 +2,16 @@ name: Lint
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   workflow_dispatch:
 
 jobs:
   lint-commits:
+    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-20.04
     steps:
       - name: Check out repository
