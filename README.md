@@ -52,7 +52,7 @@ yarn add --dev <dependency>@<version>
 
 Create your `.eslintrc` configuration file, taking care to properly inform the source of the project used for the TypeScript parser:
 
-```json
+```json5
 {
   "extends": "@okp4", // may be combined with other shareable configurations
   "parserOptions": {
