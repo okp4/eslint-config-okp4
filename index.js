@@ -27,8 +27,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-"use.strict";
+'use.strict'
 
-const eslintrc = require("./.eslintrc.js");
+const eslintrc = require('./.eslintrc.js')
 
-module.exports = eslintrc;
+module.exports = eslintrc
