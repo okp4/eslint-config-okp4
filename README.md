@@ -54,10 +54,10 @@ Create your `.eslintrc` configuration file, taking care to properly inform the s
 
 ```json
 {
-    "extends": "@okp4", // may be combined with other extensions
-    "parserOptions": {
-        "project": "./tsconfig.json"
-    }
+  "extends": "@okp4", // may be combined with other shareable configurations
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
 
@@ -67,7 +67,7 @@ Cretate your `.prettierrc.js` configuration file :
 
 ```javascript
 module.exports = {
-    ...require("@okp4/eslint-config/.prettierrc.js"),
+  ...require('@okp4/eslint-config/.prettierrc.js')
 }
 ```
 
@@ -76,7 +76,3 @@ module.exports = {
 So you want to contribute? Great. We appreciate any help you're willing to give. Don't hesitate to open issues and/or submit pull requests.
 
 Remember that this is the configuration we use at [OKP4](https://github.com/okp4), and that we apply everywhere in our private and public projects. This is why we may have to refuse change requests simply because they do not comply with our internal requirements, and not because they are not relevant.
-
-## License
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fokp4%2Feslint-config-okp4.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fokp4%2Feslint-config-okp4?ref=badge_large)
