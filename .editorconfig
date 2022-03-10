@@ -2,16 +2,24 @@ root = true
 
 [*]
 indent_style = space
-indent_size = 4
+indent_size = 2
 insert_final_newline = true
 trim_trailing_whitespace = true
 end_of_line = lf
 charset = utf-8
 
-[*.md]
+[*.{md,mdx}]
 trim_trailing_whitespace = false
 indent_size = 2
 
-[*.yml]
+[*.{yml,yaml}]
+trim_trailing_whitespace = false
+indent_size = 2
+
+[*.json]
+trim_trailing_whitespace = false
+indent_size = 2
+
+[*.scss]
 trim_trailing_whitespace = false
 indent_size = 2
