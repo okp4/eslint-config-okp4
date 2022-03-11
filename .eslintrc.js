@@ -4,18 +4,30 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint', 'react'],
+  plugins: ['@typescript-eslint', 'react', 'functional'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
+    'plugin:functional/no-mutations'
   ],
   rules: {
     /**
-     * TypeScript rules
+     * ESlint base rules
+     * Some must be disabled as @typescript-eslint can report incorrect errors
      **/
     'no-unused-vars': 'off',
+    'no-invalid-this': 'off',
+    'no-duplicate-imports': 'off',
+    'no-var': 'error',
+    'no-param-reassign': 'error',
+    'prefer-const': 'error',
+
+    /**
+     * @typescript-eslint rules
+     **/
+
     '@typescript-eslint/no-unused-vars': 2,
     '@typescript-eslint/no-use-before-define': 1,
     '@typescript-eslint/explicit-function-return-type': 2,
@@ -42,6 +54,7 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': 2,
     '@typescript-eslint/prefer-optional-chain': 2,
     '@typescript-eslint/prefer-readonly-parameter-types': 1,
+    '@typescript-eslint/prefer-readonly': 2,
     '@typescript-eslint/prefer-reduce-type-parameter': 1,
     '@typescript-eslint/prefer-string-starts-ends-with': 2,
     '@typescript-eslint/promise-function-async': 2,
@@ -62,12 +75,16 @@ module.exports = {
       }
     ],
     '@typescript-eslint/unified-signatures': 2,
-    'no-duplicate-imports': 'off',
     '@typescript-eslint/no-duplicate-imports': 2,
-    'no-invalid-this': 'off',
     '@typescript-eslint/no-invalid-this': 2,
+
     /**
-     * React rules
+     * eslint-plugin-functional rules
+     **/
+    'functional/no-loop-statement': 'error',
+
+    /**
+     * react-plugin rules
      **/
     'react/prop-types': 0,
     'react/prefer-stateless-function': 1,
