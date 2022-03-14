@@ -23,4 +23,4 @@ jobs:
 
       - name: Build
         run: |
-          yarn
+          yarn --frozen-lockfile
