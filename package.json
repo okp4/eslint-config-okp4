@@ -14,8 +14,8 @@
     "url": "https://github.com/okp4/eslint-config-okp4/issues"
   },
   "engines": {
-    "node": "~16.14.0",
-    "yarn": "~1.22.17"
+    "node": "^16.14.0",
+    "yarn": "^1.22.17"
   },
   "files": [
     "index.js",
