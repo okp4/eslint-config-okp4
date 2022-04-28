@@ -5,17 +5,17 @@ plugins:
   - - "@semantic-release/commit-analyzer"
     - releaseRules:
         - type: build
-          release": patch
+          release: patch
         - type: ci
-          release": patch
+          release: patch
         - type: docs
-          release": patch
+          release: patch
         - type: style
-          release": patch
+          release: patch
         - type: refactor
-          release": patch
+          release: patch
         - type: chore
-          release": patch
+          release: patch
   - "@semantic-release/release-notes-generator"
   - - "@semantic-release/changelog"
     - changelogFile: CHANGELOG.md
