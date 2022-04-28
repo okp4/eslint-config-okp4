@@ -1,5 +1,7 @@
 # ØKP4 eslint-config changelog
 
+## [1.0.1](https://github.com/okp4/eslint-config-okp4/compare/v1.0.0...v1.0.1) (2022-04-28)
+
 # 1.0.0 (2022-03-16)
 
 
