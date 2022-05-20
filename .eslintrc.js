@@ -23,6 +23,8 @@ module.exports = {
     'no-var': 'error',
     'no-param-reassign': 'error',
     'prefer-const': 'error',
+    'max-lines-per-function': 'error',
+    'max-nested-callbacks': ['error', { max: 5 }],
 
     /**
      * @typescript-eslint rules
