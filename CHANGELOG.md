@@ -1,5 +1,12 @@
 # ØKP4 eslint-config changelog
 
+# [1.1.0](https://github.com/okp4/eslint-config-okp4/compare/v1.0.1...v1.1.0) (2022-05-20)
+
+
+### Features
+
+* **project:** add rules to enforce clean code ([3976991](https://github.com/okp4/eslint-config-okp4/commit/3976991853cec8569de8a94f604cf299334bf0aa))
+
 ## [1.0.1](https://github.com/okp4/eslint-config-okp4/compare/v1.0.0...v1.0.1) (2022-04-28)
 
 # 1.0.0 (2022-03-16)
