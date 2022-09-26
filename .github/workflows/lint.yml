@@ -43,10 +43,13 @@ jobs:
       - name: Lint yaml files
         uses: ibiqlik/action-yamllint@v3.1.0
 
-  report_new_dependencies:
+  report-new-dependencies:
     runs-on: ubuntu-20.04
     if: github.event_name == 'pull_request' && github.actor != 'dependabot[bot]'
     steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
       - name: Check for new dependencies
         uses: hiwelo/new-dependencies-action@1.0.1
         with:
