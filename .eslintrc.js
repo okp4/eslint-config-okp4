@@ -54,8 +54,6 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-condition': 2,
     '@typescript-eslint/prefer-nullish-coalescing': 2,
     '@typescript-eslint/prefer-optional-chain': 2,
-    '@typescript-eslint/prefer-readonly-parameter-types': 1,
-    '@typescript-eslint/prefer-readonly': 2,
     '@typescript-eslint/prefer-reduce-type-parameter': 1,
     '@typescript-eslint/prefer-string-starts-ends-with': 2,
     '@typescript-eslint/promise-function-async': 2,
@@ -65,10 +63,10 @@ module.exports = {
     '@typescript-eslint/typedef': [
       'error',
       {
-        arrayDestructuring: true,
-        arrowParameter: true,
+        arrayDestructuring: false,
+        arrowParameter: false,
         memberVariableDeclaration: true,
-        objectDestructuring: true,
+        objectDestructuring: false,
         parameter: true,
         propertyDeclaration: true,
         variableDeclaration: false,
