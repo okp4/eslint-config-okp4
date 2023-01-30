@@ -4,13 +4,12 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint', 'react', 'functional'],
+  plugins: ['@typescript-eslint', 'react'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:functional/no-mutations'
+    'plugin:@typescript-eslint/recommended'
   ],
   rules: {
     /**
@@ -55,8 +54,6 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-condition': 2,
     '@typescript-eslint/prefer-nullish-coalescing': 2,
     '@typescript-eslint/prefer-optional-chain': 2,
-    '@typescript-eslint/prefer-readonly-parameter-types': 1,
-    '@typescript-eslint/prefer-readonly': 2,
     '@typescript-eslint/prefer-reduce-type-parameter': 1,
     '@typescript-eslint/prefer-string-starts-ends-with': 2,
     '@typescript-eslint/promise-function-async': 2,
@@ -66,10 +63,10 @@ module.exports = {
     '@typescript-eslint/typedef': [
       'error',
       {
-        arrayDestructuring: true,
-        arrowParameter: true,
+        arrayDestructuring: false,
+        arrowParameter: false,
         memberVariableDeclaration: true,
-        objectDestructuring: true,
+        objectDestructuring: false,
         parameter: true,
         propertyDeclaration: true,
         variableDeclaration: false,
@@ -79,11 +76,6 @@ module.exports = {
     '@typescript-eslint/unified-signatures': 2,
     '@typescript-eslint/no-duplicate-imports': 2,
     '@typescript-eslint/no-invalid-this': 2,
-
-    /**
-     * eslint-plugin-functional rules
-     **/
-    'functional/no-loop-statement': 'error',
 
     /**
      * react-plugin rules
