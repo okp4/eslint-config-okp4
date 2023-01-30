@@ -4,13 +4,12 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint', 'react', 'functional'],
+  plugins: ['@typescript-eslint', 'react'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:functional/no-mutations'
+    'plugin:@typescript-eslint/recommended'
   ],
   rules: {
     /**
@@ -79,11 +78,6 @@ module.exports = {
     '@typescript-eslint/unified-signatures': 2,
     '@typescript-eslint/no-duplicate-imports': 2,
     '@typescript-eslint/no-invalid-this': 2,
-
-    /**
-     * eslint-plugin-functional rules
-     **/
-    'functional/no-loop-statement': 'error',
 
     /**
      * react-plugin rules
