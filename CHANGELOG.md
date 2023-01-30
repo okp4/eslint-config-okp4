@@ -1,5 +1,19 @@
 # ØKP4 eslint-config changelog
 
+## [1.2.0](https://github.com/okp4/eslint-config-okp4/compare/v1.1.0...v1.2.0) (2023-01-30)
+
+
+### Features
+
+* decrease severity for ts immutability & inference ([ee36aef](https://github.com/okp4/eslint-config-okp4/commit/ee36aef4c3eb1792caf9ebd18d1ce43d5f090260))
+* remove functional plugin & rules ([a7e3d34](https://github.com/okp4/eslint-config-okp4/commit/a7e3d340097ea0e817f4418264fb7cdd4ec238d6))
+
+
+### Bug Fixes
+
+* **release:** rearrange conventionalcommits preset ([589eaa1](https://github.com/okp4/eslint-config-okp4/commit/589eaa1410dba30a9028ee8337360f06e82a3a47))
+* **release:** remove commit-analyser release rules ([7e7e59e](https://github.com/okp4/eslint-config-okp4/commit/7e7e59e1e5d847330207221b8da0b89220a47ea2))
+
 # [1.1.0](https://github.com/okp4/eslint-config-okp4/compare/v1.0.1...v1.1.0) (2022-05-20)
 
 
