@@ -1,5 +1,16 @@
 # ØKP4 eslint-config changelog
 
+## [2.0.0](https://github.com/okp4/eslint-config-okp4/compare/v1.2.0...v2.0.0) (2023-09-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* change to node v18 lts
+
+### Features
+
+* change to node v18 lts ([17eea58](https://github.com/okp4/eslint-config-okp4/commit/17eea58b804221688fc273f069e18cbd551a162c))
+
 ## [1.2.0](https://github.com/okp4/eslint-config-okp4/compare/v1.1.0...v1.2.0) (2023-01-30)
 
 
