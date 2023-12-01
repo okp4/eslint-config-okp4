@@ -1,6 +1,6 @@
 {
   "name": "@okp4/eslint-config",
-  "description": "ESLint shareable config used @okp4.com",
+  "description": "ESLint shareable config used @okp4.org",
   "version": "2.0.0",
   "repository": "git@github.com:okp4/eslint-config-okp4.git",
   "license": "BSD-3-Clause",
@@ -8,7 +8,7 @@
   "author": {
     "name": "okp4",
     "url": "https://github.com/okp4",
-    "email": "opensource@okp4.com"
+    "email": "opensource@okp4.org"
   },
   "bugs": {
     "url": "https://github.com/okp4/eslint-config-okp4/issues"
