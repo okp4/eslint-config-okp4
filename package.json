@@ -41,7 +41,7 @@
     "tsutils": ">=3.21.0"
   },
   "dependencies": {
-    "@typescript-eslint/parser": ">=6.21.0",
+    "@typescript-eslint/parser": ">=7.0.2",
     "typescript": ">=4.6.2",
     "tsutils": ">=3.21.0"
   }
